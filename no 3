@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+
+    cout << "Enter an integer: ";
+    cin >> number;
+
+    if (number > 10) {
+        cout << "This is a positive integer ^o^: " << number << endl;
+    }
+    cout << "This integer is executed T.T.";
+    return 0;
+}
